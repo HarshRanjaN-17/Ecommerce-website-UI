@@ -1,0 +1,35 @@
+@media  screen and (max-width: 800px) {
+    body{
+        background-color: rgb(36, 184, 237);
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    
+    .logo{
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+        margin: 10px 12px;
+    }
+
+    nav ul{
+        height: 33px;
+    }
+
+    .cards{
+        overflow: scroll;
+    }
+    
+}
